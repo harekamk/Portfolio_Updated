@@ -1,10 +1,39 @@
 declare module "gsap-trial/SplitText" {
-  const content: any;
-  export const SplitText: any;
-  export default content;
+  export class SplitText {
+    words: HTMLElement[];
+    chars: HTMLElement[];
+    lines: HTMLElement[];
+
+    constructor(
+      target: string | Element | string[],
+      vars?: {
+        type?: string;
+        linesClass?: string;
+        wordsClass?: string;
+        charsClass?: string;
+      }
+    );
+
+    revert(): void;
+  }
 }
+
 declare module "gsap-trial/ScrollSmoother" {
-  const content: any;
-  export const ScrollSmoother: any;
-  export default content;
+  export class ScrollSmoother {
+    static create(options?: {
+      [key: string]: unknown;
+    }): ScrollSmoother;
+
+    static refresh(force?: boolean): void;
+
+    scrollTop(value?: number): number | void;
+
+    paused(value?: boolean): boolean | void;
+
+    scrollTo(
+  target: string | Element | null,
+  smooth?: boolean,
+  position?: string
+): void;
+  }
 }
