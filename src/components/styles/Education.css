@@ -1,0 +1,148 @@
+.education-section {
+  box-sizing: border-box;
+  padding: 60px 0 100px;
+  position: relative;
+}
+.education-section h2 {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-size: 70px;
+  font-weight: 500;
+}
+.education-section h2 > span {
+  color: var(--accentColor);
+}
+.education-container {
+  margin: auto;
+  width: 1300px;
+  max-width: calc(100% - 160px);
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+.education-inner {
+  display: flex;
+  flex-direction: column;
+}
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.education-box {
+  display: flex;
+  gap: 40px;
+  padding: 40px 0;
+  border-top: 1px solid #363636;
+  align-items: baseline;
+}
+.education-institution-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+}
+.education-year {
+  flex-shrink: 0;
+  color: var(--accentColor);
+  font-size: 18px;
+  letter-spacing: 0.02em;
+}
+.education-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.education-info h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.education-info h4 {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.education-info p {
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.8;
+  max-width: 700px;
+}
+
+/* Desktop: the 3D model sits over the middle of the viewport. The
+   heading sits on its own on the plain left side of the model, while
+   the actual education content sits on the right, clear of the model. */
+@media only screen and (min-width: 1025px) {
+  .education-section {
+    width: var(--cWidth);
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  .education-container {
+    width: 100%;
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .education-heading {
+    margin-top: 4px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+    width: 260px;
+    font-size: 42px;
+    line-height: 1.15;
+  }
+  .education-inner {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 44%;
+    max-width: 700px;
+  }
+  .education-list {
+    flex: 1;
+    min-width: 0;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .education-inner {
+    width: 40%;
+  }
+  .education-heading {
+    font-size: 48px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .education-container {
+    margin: auto;
+    width: 1300px;
+    max-width: calc(100% - 160px);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .education-container {
+    width: 500px;
+    max-width: var(--cWidth);
+  }
+  .education-section h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  .education-box {
+    flex-direction: column;
+    gap: 12px;
+    padding: 30px 0;
+  }
+  .education-year {
+    width: auto;
+    font-size: 15px;
+  }
+  .education-info h3 {
+    font-size: 22px;
+  }
+}
