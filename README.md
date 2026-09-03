@@ -150,10 +150,9 @@ npm run lint
 > Add screenshots of your portfolio here to give recruiters a quick preview of the website.
 
 ### 🏠 Home Page
-```
+
 <img width="1882" height="892" alt="Screenshot 2026-09-03 205711" src="https://github.com/user-attachments/assets/9f3c230d-5124-40c3-a5a7-91b94e291e9e" />
 
-```
 
 ### 💻 Projects Section
 
