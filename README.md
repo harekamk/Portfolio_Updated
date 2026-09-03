@@ -1,4 +1,4 @@
-# 🚀 Harekam Kaur — Developer Portfolio
+# 🚀 Harekam Kaur — Portfolio Website
 
 A modern and interactive **personal portfolio website** built with **React, TypeScript, and Three.js**.
 
