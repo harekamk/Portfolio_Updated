@@ -147,24 +147,15 @@ npm run lint
 
 ## 📸 Screenshots
 
-> Add screenshots of your portfolio here to give recruiters a quick preview of the website.
-
 ### 🏠 Home Page
 
 <img width="1882" height="892" alt="Screenshot 2026-09-03 205711" src="https://github.com/user-attachments/assets/9f3c230d-5124-40c3-a5a7-91b94e291e9e" />
 
-
 ### 💻 Projects Section
-
-```md id="i8uq7d"
-![Projects](screenshots/projects.png)
-```
+<img width="1813" height="887" alt="Screenshot 2026-09-03 205814" src="https://github.com/user-attachments/assets/d37907cc-5615-482d-a7df-b5bf3876b155" />
 
 ### 👩‍💻 About Section
-
-```md id="vz0q84"
-![About](screenshots/about.png)
-```
+<img width="1847" height="902" alt="Screenshot 2026-09-03 205740" src="https://github.com/user-attachments/assets/6dd70ee8-3b69-48ff-bb5f-fd80ac9dd27a" />
 
 ---
 
